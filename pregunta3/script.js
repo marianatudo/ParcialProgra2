@@ -10,10 +10,15 @@ function sendInfo() {
     var date = document.getElementById("date").value;
     var drink = document.getElementById("drink").value;
     var glass = document.getElementById("glass").value;
+    if (glass<8) {
+        var mensaje = "Tomar más agua"
+    } if (glass>=8) {
+        var mensaje = "Meta alcanzada"
+    }
     cell1.innerHTML = date;
     cell2.innerHTML = drink;
     cell3.innerHTML = glass;
-    cell4.innerHTML = "mensaje";
+    cell4.innerHTML = mensaje;
 }
 
 
