@@ -13,7 +13,7 @@ function sendInfo() {
     cell1.innerHTML = date;
     cell2.innerHTML = drink;
     cell3.innerHTML = glass;
-    cell4.innerHTML = "Tomar más agua";
+    cell4.innerHTML = "mensaje";
 }
 
 
